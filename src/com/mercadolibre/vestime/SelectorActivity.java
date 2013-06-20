@@ -32,8 +32,9 @@ public class SelectorActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+        
+        MylocalData.getInstance().context = this.getApplicationContext();
 		setContentView(R.layout.activity_category_selector);
-       
 
 		menuBtn = (ImageButton)findViewById(R.id.menuBtn);
 		/*backBtn = (ImageButton)findViewById(R.id.backBtn);*/

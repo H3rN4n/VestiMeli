@@ -185,7 +185,7 @@
                             android:layout_height="match_parent"
                             android:paddingLeft="40dp">
                         <ImageButton
-                                android:id="@+id/cat1"
+                                android:id="@+id/cat5"
                                 android:layout_width="275dp"
                                 android:layout_height="100dp"
                                 android:background="#05332f">

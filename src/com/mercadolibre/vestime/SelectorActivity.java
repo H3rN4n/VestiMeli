@@ -50,10 +50,10 @@ public class SelectorActivity extends Activity {
 
 		public void onClick(View v) {
 			
-		/*	intent = new Intent(MylocalData.getInstance().context, ProductViewActivity.class);
+			intent = new Intent(MylocalData.getInstance().context, ProductViewActivity.class);
    	     	intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
    	     	MylocalData.getInstance().context.startActivity(intent);
-   	     	overridePendingTransition( R.anim.slide_in_left, R.anim.slide_in_right );*/
+   	     	overridePendingTransition( R.anim.slide_in_left, R.anim.slide_in_right );
 
 
 		}
@@ -67,19 +67,31 @@ public class SelectorActivity extends Activity {
 		public void onClick(View v) {
 			
 
-			/*switch(v.getId()){
+			switch(v.getId()){
 			
 
-				case R.id.backBtn:
+				case R.id.cat1:
 				
 	       	     	
 	       	     	break;
 	       	     	
-				case R.id.menuBtn:
+				case R.id.cat2:
 					
-				break;
-					
-			}*/
+				    break;
+
+                case R.id.cat3:
+
+                    break;
+
+                case R.id.cat4:
+
+                    break;
+
+                case R.id.cat5:
+
+                    break;
+
+			}
 
 		}
 		

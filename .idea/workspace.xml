@@ -15,6 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84e9f94f-e95f-4ee0-9368-309c372c860d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mercadolibre/vestime/MylocalData.java" afterPath="$PROJECT_DIR$/src/com/mercadolibre/vestime/MylocalData.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mercadolibre/vestime/SelectorActivity.java" afterPath="$PROJECT_DIR$/src/com/mercadolibre/vestime/SelectorActivity.java" />
     </list>
     <ignored path="VestiMeli.iws" />
@@ -103,7 +104,16 @@
       <file leaf-file-name="SelectorActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/mercadolibre/vestime/SelectorActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="85" selection-start="1575" selection-end="1575" vertical-scroll-proportion="0.52369076" vertical-offset="465" max-vertical-offset="1530">
+            <state line="50" column="45" selection-start="1629" selection-end="1629" vertical-scroll-proportion="0.70074815" vertical-offset="319" max-vertical-offset="2115">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MylocalData.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mercadolibre/vestime/MylocalData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="64" column="34" selection-start="1423" selection-end="1439" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="1170">
               <folding />
             </state>
           </provider>
@@ -161,6 +171,7 @@
         <option value="$PROJECT_DIR$/src/com/mercadolibre/vestime/HomeMercadoActivity.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/layout/activity_category_selector.xml" />
+        <option value="$PROJECT_DIR$/src/com/mercadolibre/vestime/MylocalData.java" />
         <option value="$PROJECT_DIR$/src/com/mercadolibre/vestime/SelectorActivity.java" />
       </list>
     </option>
@@ -517,13 +528,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/mercadolibre/vestime/HomeMercadoActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="244" column="4" selection-start="7752" selection-end="8202" vertical-scroll-proportion="0.0" vertical-offset="3645" max-vertical-offset="4125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/activity_category_selector.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
@@ -641,9 +645,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mercadolibre/vestime/MylocalData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="34" selection-start="1423" selection-end="1439" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="1170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mercadolibre/vestime/SelectorActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="85" selection-start="1575" selection-end="1575" vertical-scroll-proportion="0.52369076" vertical-offset="465" max-vertical-offset="1530">
+        <state line="50" column="45" selection-start="1629" selection-end="1629" vertical-scroll-proportion="0.70074815" vertical-offset="319" max-vertical-offset="2115">
           <folding />
         </state>
       </provider>

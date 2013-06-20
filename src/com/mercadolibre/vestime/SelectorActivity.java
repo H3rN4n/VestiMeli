@@ -37,9 +37,18 @@ public class SelectorActivity extends Activity {
 
 		menuBtn = (ImageButton)findViewById(R.id.menuBtn);
 		/*backBtn = (ImageButton)findViewById(R.id.backBtn);*/
-
+        cat1 = (ImageButton)findViewById(R.id.cat1);
+        cat2 = (ImageButton)findViewById(R.id.cat2);
+        cat3 = (ImageButton)findViewById(R.id.cat3);
+        cat4 = (ImageButton)findViewById(R.id.cat4);
+        cat5 = (ImageButton)findViewById(R.id.cat5);
 		/*backBtn.setOnClickListener(gotoSection);*/
 		menuBtn.setOnClickListener(gotoSection);
+        cat1.setOnClickListener(gotoSection);
+        cat2.setOnClickListener(gotoSection);
+        cat3.setOnClickListener(gotoSection);
+        cat4.setOnClickListener(gotoSection);
+        cat5.setOnClickListener(gotoSection);
 		
 	}
 	
@@ -50,10 +59,10 @@ public class SelectorActivity extends Activity {
 
 		public void onClick(View v) {
 			
-			intent = new Intent(MylocalData.getInstance().context, ProductViewActivity.class);
+			/*intent = new Intent(MylocalData.getInstance().context, ProductViewActivity.class);
    	     	intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
    	     	MylocalData.getInstance().context.startActivity(intent);
-   	     	overridePendingTransition( R.anim.slide_in_left, R.anim.slide_in_right );
+   	     	overridePendingTransition( R.anim.slide_in_left, R.anim.slide_in_right );*/
 
 		}
 	
@@ -70,23 +79,53 @@ public class SelectorActivity extends Activity {
 			
 
 				case R.id.cat1:
+
+                    MylocalData.getInstance().firstCatSelector = "MLA1455";
+                    intent = new Intent(MylocalData.getInstance().context, HomeMercadoActivity.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                    MylocalData.getInstance().context.startActivity(intent);
+                    overridePendingTransition( R.anim.slide_in_left, R.anim.slide_in_right );
 				
 	       	     	
 	       	     	break;
 	       	     	
 				case R.id.cat2:
+
+                    MylocalData.getInstance().firstCatSelector = "MLA1455";
+                    intent = new Intent(MylocalData.getInstance().context, HomeMercadoActivity.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                    MylocalData.getInstance().context.startActivity(intent);
+                    overridePendingTransition( R.anim.slide_in_left, R.anim.slide_in_right );
 					
 				    break;
 
                 case R.id.cat3:
 
+                    MylocalData.getInstance().firstCatSelector = "MLA1455";
+                    intent = new Intent(MylocalData.getInstance().context, HomeMercadoActivity.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                    MylocalData.getInstance().context.startActivity(intent);
+                    overridePendingTransition( R.anim.slide_in_left, R.anim.slide_in_right );
+
                     break;
 
                 case R.id.cat4:
 
+                    MylocalData.getInstance().firstCatSelector = "MLA1455";
+                    intent = new Intent(MylocalData.getInstance().context, HomeMercadoActivity.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                    MylocalData.getInstance().context.startActivity(intent);
+                    overridePendingTransition( R.anim.slide_in_left, R.anim.slide_in_right );
+
                     break;
 
                 case R.id.cat5:
+
+                    MylocalData.getInstance().firstCatSelector = "MLA1455";
+                    intent = new Intent(MylocalData.getInstance().context, HomeMercadoActivity.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                    MylocalData.getInstance().context.startActivity(intent);
+                    overridePendingTransition( R.anim.slide_in_left, R.anim.slide_in_right );
 
                     break;
 

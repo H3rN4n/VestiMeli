@@ -61,6 +61,8 @@ public class MylocalData {
 	public String[] array_spinner_id_prod;
 	public String catSeleted;
 	public String ids;
+
+    public String firstCatSelector;
     
     
     public static synchronized MylocalData getInstance(){

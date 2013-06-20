@@ -3,7 +3,7 @@
     package="com.mercadolibre.vestime"
     android:versionCode="1"
     android:versionName="1.0" >
-    
+
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="mobi.adfi.monopolybri.permission.MAPS_RECEIVE" />
@@ -12,10 +12,10 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    
+
 
     <uses-sdk
-            android:minSdkVersion="9"
+            android:minSdkVersion="7"
             android:targetSdkVersion="17" />
 
     <application
@@ -23,9 +23,9 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-        
+
         <activity
-                android:name="com.mercadolibre.vestime.HomeMercadoActivity"
+                android:name="com.mercadolibre.vestime.SelectorActivity"
                 android:label="@string/app_name"
                 android:screenOrientation="portrait" >
             <intent-filter>
@@ -34,22 +34,26 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
+
         <activity
             android:name="com.mercadolibre.vestime.ProductViewActivity"
             android:screenOrientation="portrait" >
         </activity>
-        
+
         <activity
             android:name="com.mercadolibre.vestime.FilterMercadoActivity"
             android:screenOrientation="portrait" >
         </activity>
-        
+
         <activity
             android:name="com.mercadolibre.vestime.ListActivity"
             android:screenOrientation="portrait" >
         </activity>
 
+        <activity
+                android:name="com.mercadolibre.vestime.HomeMercadoActivity"
+                android:screenOrientation="portrait">
+        </activity>
 
     </application>
 

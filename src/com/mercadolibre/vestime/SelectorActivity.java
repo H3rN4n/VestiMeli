@@ -55,7 +55,6 @@ public class SelectorActivity extends Activity {
    	     	MylocalData.getInstance().context.startActivity(intent);
    	     	overridePendingTransition( R.anim.slide_in_left, R.anim.slide_in_right );
 
-
 		}
 	
 	};

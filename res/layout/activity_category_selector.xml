@@ -79,14 +79,40 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:background="#dddede"
-            android:orientation="vertical" >
+            android:orientation="vertical"
+            android:layout_below="@id/barra">
+            <LinearLayout
+                    android:id="@+id/slide_home"
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:background="#dddede"
+                    android:orientation="horizontal" >
+
+                <RelativeLayout
+                        android:layout_width="50dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:background="#e1e1e1">
+                    <LinearLayout
+                            android:gravity="center_vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:paddingLeft="40dp">
+                        <ImageButton
+                                android:id="@+id/cat0"
+                                android:layout_width="275dp"
+                                android:layout_height="100dp"
+                                android:background="#05332f">
+                        </ImageButton>
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
             <LinearLayout
                 android:id="@+id/slide_home"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:background="#dddede"
-                android:orientation="horizontal"
-                android:layout_below="@id/barra">
+                android:orientation="horizontal">
                 <RelativeLayout
                      android:layout_width="50dp"
                      android:layout_height="200dp"
@@ -170,7 +196,7 @@
             <LinearLayout
                     android:id="@+id/slide_home"
                     android:layout_width="fill_parent"
-                    android:layout_height="300dp"
+                    android:layout_height="200dp"
                     android:background="#dddede"
                     android:orientation="horizontal" >
 

@@ -23,6 +23,7 @@ public class SelectorActivity extends Activity {
 	ImageButton menuBtn;
 	ImageButton backBtn;
     ImageButton filterButton;
+    ImageButton cat0;
     ImageButton cat1;
     ImageButton cat2;
     ImageButton cat3;
@@ -32,12 +33,13 @@ public class SelectorActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-        
+
         MylocalData.getInstance().context = this.getApplicationContext();
 		setContentView(R.layout.activity_category_selector);
 
 		menuBtn = (ImageButton)findViewById(R.id.menuBtn);
 		/*backBtn = (ImageButton)findViewById(R.id.backBtn);*/
+        cat0 = (ImageButton)findViewById(R.id.cat0);
         cat1 = (ImageButton)findViewById(R.id.cat1);
         cat2 = (ImageButton)findViewById(R.id.cat2);
         cat3 = (ImageButton)findViewById(R.id.cat3);
@@ -45,6 +47,7 @@ public class SelectorActivity extends Activity {
         cat5 = (ImageButton)findViewById(R.id.cat5);
 		/*backBtn.setOnClickListener(gotoSection);*/
 		menuBtn.setOnClickListener(gotoSection);
+        cat0.setOnClickListener(gotoSection);
         cat1.setOnClickListener(gotoSection);
         cat2.setOnClickListener(gotoSection);
         cat3.setOnClickListener(gotoSection);
@@ -77,6 +80,17 @@ public class SelectorActivity extends Activity {
 			
 
 			switch(v.getId()){
+
+                case R.id.cat0:
+
+                    MylocalData.getInstance().firstCatSelector = "MLA1455";
+                    intent = new Intent(MylocalData.getInstance().context, HomeMercadoActivity.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                    MylocalData.getInstance().context.startActivity(intent);
+                    overridePendingTransition( R.anim.slide_in_left, R.anim.slide_in_right );
+
+
+                    break;
 			
 
 				case R.id.cat1:
